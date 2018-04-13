@@ -9,8 +9,8 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/, // a regular expression that catches .js files
-        exclude: /node_modules/,
+        test: '/\.js$/', // a regular expression that catches .js files
+        exclude: '/node_modules/',
         loader: 'babel-loader'
       }
     ]
