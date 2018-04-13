@@ -9,7 +9,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/, // a regular expression that catches .js files
+        test: '/\.js$/', // a regular expression that catches .js files
         exclude: /node_modules/,
         loader: 'babel-loader'
       }
